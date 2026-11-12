@@ -23,6 +23,14 @@ Holberton School projects about pointers, arrays and strings in C.
 | `5-string_toupper.c` | `char *string_toupper(char *);` | Changes lowercase letters to uppercase |
 | `6-cap_string.c` | `char *cap_string(char *);` | Capitalizes all words of a string |
 | `7-leet.c` | `char *leet(char *);` | Encodes a string into 1337 |
+| `0-memset.c` | `char *_memset(char *s, char b, unsigned int n);` | Fills memory with a constant byte |
+| `1-memcpy.c` | `char *_memcpy(char *dest, char *src, unsigned int n);` | Copies a memory area |
+| `2-strchr.c` | `char *_strchr(char *s, char c);` | Locates a character in a string |
+| `3-strspn.c` | `unsigned int _strspn(char *s, char *accept);` | Gets the length of a prefix substring |
+| `4-strpbrk.c` | `char *_strpbrk(char *s, char *accept);` | Searches a string for any of a set of bytes |
+| `5-strstr.c` | `char *_strstr(char *haystack, char *needle);` | Locates a substring |
+| `7-print_chessboard.c` | `void print_chessboard(char (*a)[8]);` | Prints the chessboard |
+| `8-print_diagsums.c` | `void print_diagsums(int *a, int size);` | Prints the sums of the two diagonals of a matrix |
 
 All prototypes are in `main.h`. Compiled on Ubuntu 20.04 with
 `gcc -Wall -Werror -Wextra -pedantic -std=gnu89`.
